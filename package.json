@@ -1,0 +1,22 @@
+{
+  "name": "@globalunderdog/common",
+  "version": "1.0.0",
+  "description": "Code that is shared between back/front end",
+  "main": "dist/index.js",
+  "repository": "https://github.com/GlobalUnderdog/common",
+  "author": "Global Underdog",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -Rf dist",
+    "build": "yarn clean && tsc",
+    "prepublishOnly": "yarn build "
+  },
+  "devDependencies": {
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "@tianhuil/simple-trpc": "^1.8.1",
+    "node-fetch": "^2.6.1",
+    "ts-toolbelt": "^6.0.0"
+  }
+}
