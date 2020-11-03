@@ -11,6 +11,7 @@ export interface Contact {
   created?: number
   id?: string
   name?: string
+  company?: string
   email: string
   project: Projects
   linkedinUrl?: string
@@ -25,4 +26,9 @@ export interface ContactVirtualCoffee extends Contact {
 
 export interface ContactSocialPull extends Contact {
   project: 'social-pull'
+}
+
+export interface ContactInsurance extends Contact {
+  project: 'insurance'
+  name: string
 }
