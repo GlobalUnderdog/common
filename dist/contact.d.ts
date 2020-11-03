@@ -22,4 +22,5 @@ export interface ContactSocialPull extends Contact {
 export interface ContactInsurance extends Contact {
     project: 'insurance';
     name: string;
+    fromLearnMore: boolean;
 }

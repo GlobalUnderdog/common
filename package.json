@@ -1,6 +1,6 @@
 {
   "name": "@globalunderdog/common",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Code that is shared between back/front end",
   "main": "dist/index.js",
   "repository": "https://github.com/GlobalUnderdog/common",
