@@ -18,6 +18,8 @@ export interface ContactVirtualCoffee extends Contact {
 }
 export interface ContactSocialPull extends Contact {
     project: 'social-pull';
+    pricing: number[];
+    price: string | number;
 }
 export interface ContactInsurance extends Contact {
     project: 'insurance';
