@@ -10,6 +10,7 @@ export interface Contact {
     project: Projects;
     linkedinUrl?: string;
     googleTrackingId?: string;
+    newsletter?: boolean;
 }
 export interface ContactVirtualCoffee extends Contact {
     project: 'virtual-coffee';
