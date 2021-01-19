@@ -5,6 +5,7 @@ export type Projects =
   | 'social-pull'
   | 'globalunderdog'
   | 'insurance'
+  | 'dataka'
 
 export interface Contact {
   /** Timestamp in ms */
@@ -35,4 +36,10 @@ export interface ContactInsurance extends Contact {
   project: 'insurance'
   name: string
   fromLearnMore: boolean
+}
+
+export interface ContactDataka extends Contact {
+  project: 'dataka'
+  name: string
+  email: string
 }
