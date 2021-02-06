@@ -1,5 +1,5 @@
 export declare type CollectContactStatus = 'invalid' | 'success' | 'error';
-export declare type Projects = 'virtual-coffee' | 'social-pull' | 'globalunderdog' | 'insurance' | 'dataka';
+export declare type Projects = 'virtual-coffee' | 'social-pull' | 'globalunderdog' | 'insurance' | 'dataka' | 'evergreen';
 export interface Contact {
     /** Timestamp in ms */
     created?: number;
@@ -29,6 +29,11 @@ export interface ContactInsurance extends Contact {
 }
 export interface ContactDataka extends Contact {
     project: 'dataka';
+    name: string;
+    email: string;
+}
+export interface ContactEvergreen extends Contact {
+    project: 'evergreen';
     name: string;
     email: string;
 }
