@@ -7,6 +7,7 @@ export interface Contact {
     name?: string;
     company?: string;
     email: string;
+    phone?: string;
     project: Projects;
     linkedinUrl?: string;
     googleTrackingId?: string;
