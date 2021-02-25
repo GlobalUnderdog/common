@@ -7,6 +7,7 @@ export type Projects =
   | 'insurance'
   | 'dataka'
   | 'evergreen'
+  | 'tutorial-hub'
 
 export interface Contact {
   /** Timestamp in ms */
@@ -48,6 +49,12 @@ export interface ContactDataka extends Contact {
 
 export interface ContactEvergreen extends Contact {
   project: 'evergreen'
+  name: string
+  email: string
+}
+
+export interface ContactTutorialHub extends Contact {
+  project: 'tutorial-hub'
   name: string
   email: string
 }
