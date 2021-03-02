@@ -8,6 +8,7 @@ export type Projects =
   | 'dataka'
   | 'evergreen'
   | 'tutorial-hub'
+  | 'datanote'
 
 export interface Contact {
   /** Timestamp in ms */
@@ -55,6 +56,12 @@ export interface ContactEvergreen extends Contact {
 
 export interface ContactTutorialHub extends Contact {
   project: 'tutorial-hub'
+  name: string
+  email: string
+}
+
+export interface ContactDataNote extends Contact {
+  project: 'datanote'
   name: string
   email: string
 }

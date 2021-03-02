@@ -1,5 +1,5 @@
 export declare type CollectContactStatus = 'invalid' | 'success' | 'error';
-export declare type Projects = 'virtual-coffee' | 'social-pull' | 'globalunderdog' | 'insurance' | 'dataka' | 'evergreen' | 'tutorial-hub';
+export declare type Projects = 'virtual-coffee' | 'social-pull' | 'globalunderdog' | 'insurance' | 'dataka' | 'evergreen' | 'tutorial-hub' | 'datanote';
 export interface Contact {
     /** Timestamp in ms */
     created?: number;
@@ -40,6 +40,11 @@ export interface ContactEvergreen extends Contact {
 }
 export interface ContactTutorialHub extends Contact {
     project: 'tutorial-hub';
+    name: string;
+    email: string;
+}
+export interface ContactDataNote extends Contact {
+    project: 'datanote';
     name: string;
     email: string;
 }
