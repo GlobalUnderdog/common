@@ -1,5 +1,5 @@
 export declare type CollectContactStatus = 'invalid' | 'success' | 'error';
-export declare type Projects = 'virtual-coffee' | 'social-pull' | 'globalunderdog' | 'insurance';
+export declare type Projects = 'virtual-coffee' | 'social-pull' | 'globalunderdog' | 'insurance' | 'guarantore';
 export interface Contact {
     /** Timestamp in ms */
     created?: number;
