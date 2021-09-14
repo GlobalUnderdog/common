@@ -5,6 +5,7 @@ export type Projects =
   | 'social-pull'
   | 'globalunderdog'
   | 'insurance'
+  | 'guarantore'
 
 export interface Contact {
   /** Timestamp in ms */
