@@ -7,11 +7,6 @@
   resolved "https://registry.yarnpkg.com/@tianhuil/simple-trpc/-/simple-trpc-1.8.1.tgz#fc42b0d7e396f1567512dd0df64d561acf3f5b7d"
   integrity sha512-C87sFaS3pEvtvzdLLnie+I2nFgWYdP835jfpUoKYs+Wp1ZmBVXyTBnemTHIYXPiM+jdNRAke21Un89kvZJIWPA==
 
-node-fetch@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
-  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
-
 ts-toolbelt@^6.0.0:
   version "6.15.5"
   resolved "https://registry.yarnpkg.com/ts-toolbelt/-/ts-toolbelt-6.15.5.tgz#cb3b43ed725cb63644782c64fbcad7d8f28c0a83"
