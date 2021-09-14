@@ -2,8 +2,8 @@ const { exec } = require('child_process')
 const { version } = require('./package.json')
 
 const commands = [
-  `git tag -a 'v${version}' -m 'v${version}'`,
-  `git push origin v${version}`,
+  `git tag -a '${version}' -m '${version}'`,
+  `git push origin ${version}`,
 ]
 
 const command = commands.join(' && ')
@@ -11,5 +11,5 @@ const command = commands.join(' && ')
 if (process.argv.includes('--dryRun')) {
   console.log(command)
 } else {
-  exec(command, () => console.log(`Added and pushed tag v${version}`))
+  exec(command, () => console.log(`Added and pushed tag ${version}`))
 }
